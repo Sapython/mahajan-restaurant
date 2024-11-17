@@ -1,0 +1,50 @@
+.hidden-Overflow-x {
+  overflow-x: hidden;
+}
+.featuredBanner {
+  width: 700px;
+  height: auto;
+}
+.relative-center {
+  position: relative;
+  left: 50%;
+  /* margin:0 auto; */
+  transform: translateX(-50%);
+}
+.pricing{
+    position: relative;
+    float: right;
+}
+.pricing > p > span {
+  font-size: 20px;
+  padding: 10px;
+  background-color: #dadada;
+  color: rgb(70, 70, 70);
+  font-weight: bold;
+  font-family: "Roboto";
+  border-radius: 10px;
+}
+.pricing > div {
+  display: flex;
+  border-radius: 5px;
+  padding: 0px 5px 0px 5px;
+}
+.pricing > div > button {
+  border: none;
+  color: rgb(70, 70, 70);
+  outline: none;
+  background: none;
+  margin-right: 20px;
+  border-radius: 7px;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 0px 15px;
+  font-family: "Roboto";
+  background-color: #dadada;
+}
+.pricing > div > button.active {
+  background-color: #45e682;
+}
+.pricing > div > button:hover {
+  background-color: #32db73;
+}

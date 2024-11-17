@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "maha-jans": {
+      "hosting": {
+        "MahajansRestaurant": [
+          "maha-jans"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "maha-jans"
+  }
+}
